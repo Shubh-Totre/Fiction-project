@@ -1,0 +1,29 @@
+$dark:          #111111;
+$info: rgba(5,5,5,0);
+$navbar-dark-color:                 #facd8a;
+$navbar-dark-active-color:          #facd8a;
+$navbar-dark-hover-color:           red;
+$primary: #facd8a;
+$text-muted: aqua;  
+
+
+/* carousel style-1*/
+$carousel-control-opacity:           1;
+$carousel-control-hover-opacity:     1;
+$carousel-control-width:             10%;
+
+/* carousel style-2 */
+$carousel-indicator-width:           15px;
+$carousel-indicator-height:          15px;
+$carousel-indicator-active-bg:       #facd8a;
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+.clients{
+    background-image: url(img2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
